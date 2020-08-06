@@ -33,19 +33,19 @@ function userInput() {
     if (passwordsLength < 8 || passwordsLength > 128 && typeof passwordsLength !== 'number') {
         alert ("put the right number!!!!");
       } else {
-    var userOption = confirm ("lower case yes or no")
+    var userOption = confirm ("Do you want Lower Case in your passwords? [Yes = 'Ok', No ='Cancel']")
       if (userOption === true) {
       userChoice = userChoice.concat(lowerCase);
     }
-    var userOption2 = confirm ("Upper case yes or no")
+    var userOption2 = confirm ("Do you want Upper Case in your passwords? [Yes = 'Ok', No ='Cancel']")
       if (userOption2 === true) {
       userChoice = userChoice.concat(upperCase);
     }
-    var userOption3 = confirm ("special character yes or no")
+    var userOption3 = confirm ("Do you want Special Character in your passwords? [Yes = 'Ok', No ='Cancel']")
       if (userOption3 === true) {
       userChoice = userChoice.concat(specialCharacter);
     }
-    var userOption4 = confirm ("number yes or no")
+    var userOption4 = confirm ("Do you want Numbers in your passwords? [Yes = 'Ok', No ='Cancel']")
       if (userOption4 === true) {
       userChoice = userChoice.concat(numeric);
     }
