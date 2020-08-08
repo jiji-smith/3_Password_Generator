@@ -1,6 +1,4 @@
 # Password_Generator
-<<<<<<< HEAD
-=======
 Create an application that generates a random password based on user-selected criteria. This app will run in the browser and feature dynamically updated HTML and CSS powered by your JavaScript code. It will also feature a clean and polished user interface and be responsive, ensuring that it adapts to multiple screen sizes.
 
 >Link : https://jiji-smith.github.io/3_Password_Generator/
@@ -27,6 +25,12 @@ WHEN the password is generated  <br/>
 THEN the password is either displayed in an alert or written to the page
 
 
+## How to use the password generator
+<ol>
+<li>Click the Generate Passwords button</li>
+<li>Input the desire length of the passwords (8-128 digits)</li>
+<li>Choose the types of characters (Lowercase, Uppercase, Special Character, Numbers)</li>
+<li>If everything fits in the condition, it will generate the passwords for you!</li>
+</ol>
 
-
->>>>>>> 7a62048dd3a968e9dd73ef344012484e0778e8f6
+<img src="./assets/PasswordGeneratorImg">

@@ -31,7 +31,7 @@ var passwordsLength = 8;
 function userInput() {
   passwordsLength = prompt("Please type the length of passwords you want from 8 and 128");
   if (passwordsLength < 8 || passwordsLength > 128 && typeof passwordsLength !== 'number') {
-    alert("Please type the length of passwords you want from 8 and 128");
+    alert("You can choose only the numbers between 8 and 128!");
     userInput();
   } else {
     var userOption = confirm("Do you want Lower Case in your passwords? [Yes = 'Ok', No ='Cancel']")
@@ -51,7 +51,7 @@ function userInput() {
       userChoice = userChoice.concat(numeric);
     }
     if (!userOption && !userOption2 && !userOption3 && !userOption4) {
-      alert("pick one");
+      alert("You should pick at least one type of the characters");
       userInput();
     }
   }
