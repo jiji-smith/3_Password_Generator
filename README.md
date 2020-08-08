@@ -33,4 +33,4 @@ THEN the password is either displayed in an alert or written to the page
 <li>If everything fits in the condition, it will generate the passwords for you!</li>
 </ol>
 
-<img src="./assets/PasswordGeneratorImg">
+<img src="./assets/PasswordGeneratorImg.png">
